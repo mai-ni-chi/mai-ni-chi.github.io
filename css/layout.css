@@ -79,6 +79,9 @@ br{user-select: none;}
 @media (max-width: 1600px){.container{max-width: 1252px;}}
 @media (max-width: 1400px){.container{max-width: 1052px;}}
 @media (max-width: 1200px){.container{max-width: 852px;}}
+@media (max-width: 1000px){.container{max-width: 696px;}}
+@media (max-width: 600px){.container{max-width: 378px;}}
+
 
 
 
