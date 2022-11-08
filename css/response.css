@@ -1,0 +1,326 @@
+
+/*-------------------------*/
+/* $Mobile
+---------------------------*/
+
+
+@media (min-width: 1000px) {
+    .nav_bar{
+        display: none;
+    }
+}
+
+
+@media (max-width: 2100px){
+    .mainmenu_logo{margin-bottom: 2em;}
+}
+
+
+
+
+/*-------------------------*/
+/* $1366 x 768
+---------------------------*/
+
+@media (max-width: 1600px){
+    .menu_item{font-size: 20px;}
+}
+
+
+@media (max-width: 1400px){
+    .menu_item{font-size: 18px;}
+}
+
+@media (max-width: 1200px){
+    .banner{
+        background: url(../image/home/banner_img_1440.png) no-repeat ;
+        background-position: left top;
+        background-size: contain;
+        height: 60vh;
+    }
+}
+
+
+
+
+/*-------------------------*/
+/* $768 x 1024
+---------------------------*/
+
+@media (max-width: 1000px){
+
+    /* global */
+    
+    .container{
+        max-width: 608px;
+    }
+    .title > img{
+        width: 10em;
+    }
+    .sub_title{
+        font-size: 16px;
+        margin: .5em 1.3em;
+    }
+
+
+
+    /* header */
+
+    .index_bg{
+        background: url(../image/home/about_bg_768.svg) repeat-x;
+        background-position: left top;
+        background-size: contain;
+        /* top: 45vh; */
+    }
+
+    .sec_header > .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header_mainmenu{
+        display: flex;
+        justify-content: center
+    }
+    .mainmenu{
+        margin-top: 5vh;       
+    }
+
+    .mainmenu > ul{
+        display: none;
+    }
+    .mainmenu_logo{
+        width: 60%;
+    }
+    .menu_item{font-size: 16px;}
+
+    .header_banner{
+        width: 90vw;
+    }
+
+    .banner{
+        background: url(../image/home/banner_img_768.png) no-repeat ;
+        background-position: center top;
+        background-size: contain;
+    }
+
+    .social_btn > img{width: 100%;}
+    .social_bar{
+        top: 0%;
+        right:  4%;
+    }
+    .social_btn{margin-bottom: 1em;}
+
+
+
+
+    /* about */
+    .sec_about{
+        margin-top: 0;
+        height: 35vh;
+    }
+
+    .about_txt_box > p{
+        width: 80%;
+        font-size: 14PX;
+    }
+
+    .about_img{
+        width: 75%;
+    }
+
+    /* product */
+
+    .sec_product{
+        height: 40vh;
+    }
+
+    .product_list{
+        margin-bottom: 20%
+    }
+
+    .product_card{
+        flex-direction: column;
+        height: 8em;
+    }
+
+    .product_card > span{
+        margin-bottom: .5em;
+        font-size: 1em;
+        position: absolute;
+        z-index: 2;
+        left: 5%;
+        top: 5%;
+    }
+    .product_name{
+        writing-mode: horizontal-tb;
+        left: 7%;
+        bottom: -50%;
+    } 
+    .product_name > .name{
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+    .product_name > .name_jp{
+        font-size: 14px;
+    }
+
+    /* recipe */
+    .sec_recipe{
+        margin-bottom: 0;
+    }
+
+    .recipe_bg{
+        height: 45vh;
+        margin-bottom: 0;
+    }
+    .process_txt_box.txt_1{
+        padding-left: 1em;
+    }
+    .process_txt_box.txt_2{
+        padding-left: 3em;
+    }
+    .process_txt_box > div{
+        font-size: 20px;
+    }
+    .process_txt_box > p{
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .process{
+        height: 20vh;
+    }
+    .process_img_1{
+        margin-right: 2em;
+    }
+    .process_img_2{
+        margin-left: 2em;
+    }
+
+    /* order */
+    .sec_order{
+        margin-top: 16vh;
+        margin-bottom: 16vh;
+    }
+    .order_process{
+        margin-top: 0;
+        margin-bottom: 3em;
+    }
+    .tip_title{
+        font-size: 18px;
+    }
+    .tip_content{
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    .sec_order > .more_btn{
+        padding: 0.5em 2em;
+    }
+
+    /* comment */
+
+    .sec_comment{
+        margin-top: 20vh;
+        margin-bottom: 16vh;
+        height: 50vh;    
+    }
+
+    .sec_comment > .title > img{
+        width: 16em;
+    }
+
+    .comment_card{
+        padding: 2em 2em;
+        margin: 0 1em;
+    }
+    .comment_name{
+        font-size: 20px;
+    }
+    .comment_txt{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .comment_icon{
+        width: 50%;
+        bottom: -25%;
+        right: -13%
+    }
+
+    /* footer */
+    .sec_footer{
+        height: 80vh;
+        margin-top: 0;
+        padding-top: 4vh;
+        background: url(../image/home/footer/footer_bg_768.png) repeat-x ;
+        background-position: center bottom;
+        background-size: contain;
+    }
+    .contant_btn_icon{
+        width: 3em;
+        margin-right: 1em;
+    }
+    .contant_card{
+        height: 12em;
+    }
+    .btn_title{
+        font-size: 20px;
+    }
+    .btn_txt{
+        font-size: 16px;
+    }
+
+    .copyright{
+        margin-top: 2em;
+        margin-bottom: 6em;
+    }
+
+
+
+}
+
+/*-------------------------*/
+/* $428 x 926
+---------------------------*/
+
+
+@media (max-width: 600px){
+
+
+    /* global */
+        
+    .container{
+        max-width: 400px;
+    }
+    .title > img{
+        width: 10em;
+    }
+    .sub_title{
+        font-size: 14px;
+        margin: .5em 1.3em;
+    }
+    .more_btn{
+        width: 90%;
+        font-size: 16px;
+        padding: .3em 8em;
+    }
+
+    /* banner */
+
+    .index_bg{
+        background: url(../image/home/about_bg_428.svg) repeat-x;
+        background-position: left top;
+        background-size: contain;
+        top: 8%;
+    }
+
+        
+
+    .sec_header{
+        margin-top: 3em;
+        height: 60vh;
+    }
+    .social_btn > img{width: 70%;}
+    .social_bar{right: 2%;}
+    .social_btn{margin-bottom: .5em;}
+
+}
