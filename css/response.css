@@ -39,13 +39,128 @@
     .menu_item{font-size: 18px;}
 }
 
-@media (max-width: 1200px){
-    .banner{
 
-        height: 60vh;
+/*-------------------------*/
+/* $1194 x 834
+---------------------------*/
+
+
+@media (max-width: 1200px){
+
+
+    /* global */
+    .title > img{
+        width: 16em;
+    }
+    .sub_title{
+        font-size: 20px;
+    }
+    .about_txt_box > p{
+        width: 85%;
+        margin: 2em 2.2em;
+    }
+
+    .more_btn{
+        padding: .4em 6em;
+    }
+
+    /* header */
+
+    .banner{
+        height: 80vh;
+        top: 12vh;
     }
     .banner_headline{
         top: 65%;
+    }
+    .mainmenu_logo{
+        width: 40%;
+    }
+
+    .menu_item{
+        font-size: 22px;
+    }
+
+    /* product */
+    .sec_product{
+        margin-top: 24vh;
+    }
+    .product_card{
+        height: 16em;
+    }
+    .product_list{
+        margin-bottom: 25%;
+    }
+
+    .product_name{
+        bottom: -55%;
+        right: 5%;
+    }
+    .product_name > .name{
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+    .product_name > .name_jp{
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    .product_card > span{
+        font-size: 1.5em;
+    }
+    .process_img_1, .process_img_2{
+        width: 70%;
+    }
+
+    .process_txt_box.txt_1{
+        top: 35%;
+        padding-left: 0;
+    }
+    .process_txt_box.txt_2{
+        padding-left: 6em;
+    }
+    .process_img_1{
+        margin-top: 2em; 
+        margin-right: 0;  
+    }
+    .process_img_2{
+        margin-left: 0;
+    }
+    .txt_2 > p {
+       width: 100%;  
+    }
+
+      /* order */
+
+    .sec_order > .title > p{
+        margin: .5em 2.2em;
+    }
+    .tip_title{
+        font-size: 30px;
+    }
+    .tip_intro{
+        margin-top: 12em;
+    }
+    .tip_content{
+        font-size: 22px;
+    }
+
+    /* comment */
+
+    .comment_list{
+        margin-bottom: 8em;
+    }
+    .comment_card {
+        margin: 0 1em;
+        padding: 3em 4em;
+    }
+    .comment_icon{
+        width: 40%;
+    }
+
+    /* footer */
+    .sec_footer{
+        height: 125vh;
+
     }
 }
 
@@ -61,11 +176,11 @@
     /* global */
 
     .title > img{
-        width: 10em;
+        width: 14em;
     }
     .sub_title{
-        font-size: 16px;
-        margin: .5em 1.3em;
+        font-size: 18px;
+        margin: .3em 1.5em;
     }
     .more_btn{
         font-size: 18px;
@@ -154,8 +269,8 @@
     }
 
     .about_txt_box > p{
-        width: 80%;
-        font-size: 14PX;
+        width: 95%;
+        font-size: 16px;
         margin: 1.5em 1.5em;
     }
 
@@ -197,11 +312,11 @@
         bottom: -40%;
     } 
     .product_name > .name{
-        font-size: 20px;
+        font-size: 24px;
         letter-spacing: 0;
     }
     .product_name > .name_jp{
-        font-size: 14px;
+        font-size: 16px;
     }
 
     /* recipe */
@@ -215,18 +330,19 @@
         margin-bottom: 0;
     }
     .process_txt_box.txt_1{
-        padding-left: 1em;
+        padding-left: 0em;
     }
     .process_txt_box.txt_2{
         padding-left: 3em;
         top: 50%;
     }
     .process_txt_box > div{
-        font-size: 20px;
+        font-size: 24px;
     }
     .process_txt_box > p{
-        font-size: 12px;
+        font-size: 16px;
         letter-spacing: 0;
+        width: 90%;
     }
     .process{
         height: 20vh;
@@ -244,6 +360,11 @@
         margin-bottom: 16vh;
  
     }
+    .sec_order > .title > p{
+        margin: 0.3em 2.3em;
+    }
+
+
     .order_process{
         margin-top: 0;
         margin-bottom: 5em;
@@ -253,11 +374,18 @@
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
     }
+    .order_card{
+        width: 90%;
+    }
+    .order_line{
+        margin-left: .8em;
+    }
     .tip_title{
-        font-size: 18px;
+        font-size: 20px;
+        white-space: nowrap;
     }
     .tip_content{
-        font-size: 14px;
+        font-size: 16px;
         letter-spacing: 0;
     }
     .sec_order > .more_btn{
@@ -277,7 +405,10 @@
     }
 
     .sec_comment > .title > img{
-        width: 16em;
+        width: 20em;
+    }
+    .sec_comment > .title > p{
+        margin: 0em 1.8em;
     }
 
     .comment_card{
@@ -285,10 +416,10 @@
         margin: 0 1em;
     }
     .comment_name{
-        font-size: 20px;
+        font-size: 24px;
     }
     .comment_txt{
-        font-size: 14px;
+        font-size: 16px;
         letter-spacing: 1px;
     }
     .comment_icon{
@@ -584,4 +715,142 @@
         opacity: 0.8;
 
     }
+}
+
+
+
+/*-------------------------*/
+/* $390 x 844
+---------------------------*/
+
+@media (max-width: 400px){
+
+
+    /* header */
+    .banner{
+        height: 50vh;
+        top: 22vh;
+    }
+
+    .about_txt_box > p{
+        width: auto;
+        font-size: 14px;
+    }
+    .about_img{
+        width: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 2em;
+    }
+
+    /* product */
+
+    .sec_product{
+        margin-top: 20vh;
+ 
+    }
+    .product_name > .name{
+        font-size: 24px;
+    }
+    .product_name > .name_jp{
+        font-size: 18px;
+    }
+
+    /* recipe */
+    .sec_recipe{
+        margin-top: 42vh;
+    }
+    .process_txt_box > div{
+        font-size: 20px;
+    }
+    .process_txt_box > p{
+        font-size: 14px;
+    }
+
+    /* footer */
+    .btn_title{
+        font-size: 16px;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}
+
+
+/*-------------------------*/
+/* $375 x 667
+---------------------------*/
+
+
+@media (max-width: 380px){
+
+
+    /* nav */
+    .nav_item{
+        font-size: .9em;
+    }
+
+    /* about */
+    .sec_about{
+        height: 125vh;
+        margin-top: 24vh;
+        padding-bottom: 24vh;
+    }
+
+    /* product */
+    .sec_product{
+        margin-top: 12vh;
+        height: 128vh;
+    }
+    .product_card{
+        height: 12em;
+    }
+    .product_name {
+        bottom: -18%;
+    }
+
+    /* recipt */
+    .process{
+        height: 30vh;
+    }
+
+    /* order */
+    .order_card{
+        margin-bottom: 7em;
+    }
+
+    /* comment */
+    .sec_comment > .title > img{
+        width: 16em;
+    }
+    .comment_card{
+        margin: 1em .5em;
+    }
+
+    .comment_list{
+        margin-top: 4vh;
+    }
+    .comment_txt{
+        font-size: 14px;
+    }
+
+    /* footer */
+    .sec_footer{
+        height: 95vh;
+    }
+    .top_btn{
+        width: 3em;
+        height: 3em;
+    }
+
+    .footer_logo{
+        height: 10em;
+    }
+    .footer_logo >img{
+        width: 6em;
+    }
+    .footer_logo > p{
+        font-size: 16px;
+    }
+
 }
