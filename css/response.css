@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 /*-------------------------*/
 /* $Mobile
@@ -71,13 +78,24 @@
 
 
     .sec_header > .row{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .header_mainmenu{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center
     }
 
     .mainmenu_logo{
@@ -104,7 +122,9 @@
         height: 55vh;
         top: 22vh;
         right: 50%;
-        transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+            -ms-transform: translateX(50%);
+                transform: translateX(50%);
         min-width:85vw;
     }
     .banner_headline{
@@ -154,7 +174,10 @@
     }
 
     .product_card{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         height: 10em;
     }
 
@@ -167,7 +190,9 @@
         top: 5%;
     }
     .product_name{
-        writing-mode: horizontal-tb;
+        -webkit-writing-mode: horizontal-tb;
+            -ms-writing-mode: lr-tb;
+                writing-mode: horizontal-tb;
         left: 7%;
         bottom: -40%;
     } 
@@ -224,7 +249,9 @@
         margin-bottom: 5em;
         max-width: 95%;
         left: 50%;
-        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
     }
     .tip_title{
         font-size: 18px;
@@ -379,8 +406,13 @@
     /* about */
 
     .sec_about > .container > .row{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .sec_about > .container > .row >.col-1-2 {
         width: 100%;
@@ -399,8 +431,13 @@
         height: 100vh;
     }
     .product_list{
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         margin-top: 10%;
         margin-bottom: 10%;
     }
@@ -459,7 +496,10 @@
     /* order */
 
     .order_process{
-        flex-direction: column;  
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;  
         max-width: 100%; 
         margin-top: 4vh;
     }
@@ -488,7 +528,10 @@
     /* comment */
 
     .comment_list{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin-top: 1vh;
         margin-bottom: 6vh;
     }
@@ -512,7 +555,10 @@
     }
 
     .contant_card{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         height: 10em;
     }
     .contant_btn_icon{
