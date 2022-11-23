@@ -18,7 +18,7 @@
 
 
 .title > img{
-    width: 18em;
+    width: 20em;
     padding-top: 4em;
 }
 .sub_title{
@@ -27,10 +27,7 @@
     font-weight: 500;
   }
 
-.sec_product{
-    margin-top: 16vh;
-    margin-bottom: 10%; 
-}
+
 .sec_recipe{
     margin-top: 16vh;
     margin-bottom: 16vh;
@@ -56,8 +53,8 @@
 
 
 .more_btn{
-    padding: 1em 6em;
-    font-size: 24px;
+    padding: 0.6em 10em;
+    font-size: 28px;
     border-radius: 20em;
     -webkit-box-shadow: 0 0 0 5px #DEA068;
             box-shadow: 0 0 0 5px #DEA068;
@@ -149,26 +146,7 @@
 /* $Header
 ---------------------------*/
 
-
-.banner{
-    position: absolute;
-    background: url(../image/home/banner_img.png) no-repeat ;
-    background-position: center top;
-    background-size: cover;
-    min-width: 75vw;
-    height: 80vh;
-    right: 5vw;
-    top: 10vh;
-    z-index: 10;
-}
-
-.banner_headline{
-    width: 60%;
-    position: absolute;
-    top: 70%;
-    left: 2%;
-}
-
+/* ----------- Main Menu ------------ */
 .mainmenu{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -184,14 +162,13 @@
     margin-top: 10vh;
 }
 .mainmenu_logo{
-    width: 30%;
+    width: 40%;
     margin-bottom: 3em;
 }
 .menu_item{
     display: inline-block;
     font-size: 24px;
     padding: 2em 0 2em 1.6em;
-    /* margin-top: .5em; */
     letter-spacing: .1em;
     border-bottom: 1px solid #888170;
 }
@@ -208,13 +185,85 @@
     border-bottom: 0px solid #888170;
 }
 
-/* social_btn */
+/* ----------- Banner ------------ */
+
+.banner , .banner_headline , .banner_decoline ,.banner_talkbox , .banner_txt ,.banner_scroll{
+    position: absolute;
+}
+
+.banner{
+    background: url(../image/home/banner_img.png) no-repeat ;
+    background-position: center top;
+    background-size: cover;
+    min-width: 75vw;
+    height: 80vh;
+    right: 5vw;
+    top: 8vh;
+    z-index: 10;
+}
+.banner_headline{
+    width: 60%;
+    top: 70%;
+    left: 2%;
+}
+.banner_talkbox{
+    right: 10%;
+    width: 15%;
+    top: 2%;
+}
+.banner_txt{
+    font-size: 22px;
+    letter-spacing: 4px;
+    writing-mode:vertical-lr;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 8px;
+    left: 8%;
+    top: 2%;
+}
+.banner_decoline{
+    right: 0;
+    top: 40%;
+    width: 20%;
+}
+
+
+/* scroll */
+.banner_scroll{
+    right: 10%;
+    bottom: -8%;
+    width: 1.5em;
+    height: auto ;
+    font-size: 24px;
+}
+.scroll_line{
+    height: 80px;
+    border: 1px solid #F4F3F0;
+    width: 1px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.scroll_circle{
+    width: 100%;
+    height: 1.5em;
+    border: 2px solid #F4F3F0;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+.banner_scroll > p{
+    top: .5em;
+    left: -50%;   
+    display: inline-block;
+}
+
+/* ----------- Social Btn ------------ */
+
 
 .social_bar{
     position: absolute;
     top: 5vh;
     right: 3%;
-    /* border: 1px #000 solid; */
 }
 .social_btn{
     display: block;
@@ -222,7 +271,7 @@
     margin-bottom: .5em;
 }
 .social_btn > img{
-    width: 100%;
+    width: 4em;
 }
 
 
@@ -237,27 +286,51 @@
     background-position: center bottom;
     background-size: cover;
     width: 100%;
-    height: 90vh;
-    left: 0;
+    height: 100vh;
     top: 4vh;
 }
 .sec_about > .container{
-    top: 30%;
+    top: 28%;
 }
-
-
 .about_deco{
     opacity: 50%;
 }
 .about_img{
-    width: 60%;
+    width: 70%;
     left: 20%;
 }
 .about_txt_box > p {
     width: 60%;
-    margin: 3em;
-    font-size: 18px;
+    margin: 2.2em ;
+    font-size: 22px;
     font-weight: 300;
+}
+
+.about_decoline, .about_deco_jam, .about_deco_glove, .about_deco_stirring{
+    position: absolute;
+}
+.about_decoline{
+    left: 0;
+    top: 8%;
+    width: 18%;
+}
+.about_deco_jam{
+    opacity: 50%;
+    bottom: 4%;
+    left: 28%;
+    width: 10%;
+}
+.about_deco_glove{
+    opacity: 50%;
+    top:34%;
+    left: 45%;
+    width: 9%;
+}
+.about_deco_stirring{
+    opacity: 50%;
+    top: 13%;
+    left: 27%;
+    width: 14%;
 }
 
 
@@ -266,12 +339,15 @@
 ---------------------------*/
 
 .sec_product{
-    height: 100vh;
+    height: 100%;
+    margin-top: 24vh;
+    margin-bottom: 24vh;
 }
 .sec_product > .more_btn{
     /* margin-left: -10em; */
 }
 .product_list{
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -326,6 +402,8 @@
     letter-spacing: 2px;
     white-space:nowrap
 }
+
+
 
 
 /*-------------------------*/
