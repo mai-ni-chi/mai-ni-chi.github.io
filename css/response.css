@@ -18,18 +18,192 @@
 }
 
 
+/*-------------------------*/
+/* $1440×800 - mac pro 13'
+---------------------------*/
 
 
 
 
 /*-------------------------*/
-/* $1366 x 768
+/* $1440×800 - mac pro 13'
 ---------------------------*/
 
 @media (max-width: 1600px){
-    .menu_item{font-size: 20px;}
-    .banner{height: 80vh;}
+
+
+    /* global */
+    .title > img{
+        width: 16em;
+    }
+    .sub_title{
+        font-size: 16px;
+        margin: .5em 2.4em;
+    }
+
+    .more_btn{
+        padding: .4em 8em ;
+        font-size: 20px;
+    }
+
+
+    /* header */
+    .mainmenu{margin-bottom: 0;}
+    .menu_item{
+        font-size: 18px;
+        padding: 2em 0 2em 1.6em;
+    }
+    .banner{
+        min-width: 80vw;
+        height: 80vh;
+        right: 0;
+    }
+    .banner_txt{
+        font-size: 16px;
+        letter-spacing: 2px;
+        top: 6%;
+    }
+    /* social btn */
+    .social_btn > img{
+        width: 3em;
+    }
+    /* logo */
+    .mainmenu_logo{
+        width: 30%;
+        margin-bottom: 2em;
+    }
+    /* scroll */
+    .banner_scroll{
+        width: .8em;
+        bottom: -7%
+    }
+    .scroll_circle{
+        height: .8em;
+    }
+    .scroll_line{
+        height: 48px;
+    }
+    .banner_scroll > p{
+        font-size: 18px;
+    }
+    .banner_talkbox{
+        width: 13%;
+        top: 5%;
+        right: 13%;
+    }
+    /* about */
+    .about_txt_box > p{
+        width: 64%;
+        font-size: 16px;
+    }
+    .about_deco_jam{
+        bottom: 0%;
+        left: 40%;
+        width: 12%
+    }
+    .about_deco_stirring{
+        left: 35%;
+    }
+    .about_img_box{
+        top: 2em;
+    }
+    /* product */
+    .product_card{
+        height: 15em;
+    }
+    .product_list{
+        margin-bottom: 14%;
+    }
+
+    .product_card > span{
+        font-size: 1.5em;
+    }
+    .product_name{
+        right: 8%;
+        bottom: -40%;
+    }
+    .product_name > .name{
+        font-size: 24px;
+    }
+    .product_name > .name_jp{
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+    /* recipe */
+    .recipe_bg{
+        margin-bottom: 0;
+    }
+    .process_txt_box > div{
+        font-size: 24px;
+    }
+
+    .process_txt_box.txt_1 , .process_txt_box.txt_2{
+        padding-left: 5em;
+    }
+  
+
+    /* order */
+
+    .sec_order{
+        margin-top: 16vh;
+    }
+
+    .order_process{
+        margin-bottom: 8em;
+    }
+    .tip_intro{
+        margin-top: 12em;
+    }
+    .tip_title{
+        font-size: 24px;
+    }
+    .tip_content{
+        font-size: 16px;
+    }
+    /* comment */
+    .sec_comment > .title > .sub_title{
+        margin:  em 2.6em;
+    }
+
+    .comment_card{
+        margin: 0 1em;
+        padding: 4em 4em;
+    }
+    /* footer */
+    .footer_logo{
+        margin-bottom: 4em;
+    }
+    .top_btn{
+        width: 4em;
+    }
+
+    .contant_card{
+        height: 14em;
+    }
+    .footer_logo >img{
+        width: 10em;
+    }
+    .contant_btn_icon{
+        width: 3em;
+    }
+    .btn_title{
+        font-size: 24px;
+    }
+    .btn_txt{
+        font-size: 16px;
+    }
+
 }
+
+
+
+
+
+
+/*-------------------------*/
+/* $1366 x 768 - mac pro 14'
+---------------------------*/
+
 
 
 @media (max-width: 1400px){
@@ -40,7 +214,7 @@
 
 
 /*-------------------------*/
-/* $1194 x 834
+/* $1194 x 834 - ipad vertical
 ---------------------------*/
 
 
@@ -84,7 +258,7 @@
     }
 
     .social_btn > img{
-        width: 3em;
+        width: 2.5em;
     }
     .scroll_circle{
         height: 1.2em
@@ -92,9 +266,7 @@
     .banner_scroll{
         width: 1.2em;
     }
-    .banner_scroll > p{
-        font-size: 20px;
-    }
+
 
 
 
@@ -183,21 +355,12 @@
 
 
 /*-------------------------*/
-/* $1024 x 768
----------------------------*/
-
-
-
-
-
-/*-------------------------*/
 /* $768 x 1024
 ---------------------------*/
 
 @media (max-width: 1000px){
 
     /* global */
-
     .title > img{
         width: 14em;
     }
@@ -213,8 +376,6 @@
 
 
     /* header */
-
-
     .sec_header > .row{
         display: -webkit-box;
         display: -ms-flexbox;
@@ -378,11 +539,7 @@
     }
 
     /* order */
-    .sec_order{
-        margin-top: 16vh;
-        margin-bottom: 16vh;
- 
-    }
+
     .sec_order > .title > p{
         margin: 0.3em 2.3em;
     }
@@ -499,8 +656,6 @@
 
 }
 
-
-
 /*-------------------------*/
 /* $428 x 926
 ---------------------------*/
@@ -510,8 +665,6 @@
 
 
     /* global */
-        
-
     .title > img{
         width: 10em;
     }
@@ -536,25 +689,45 @@
 
 
     /* header */
-
-    .mainmenu_logo{width: 100%;}
-
-    .banner{
-        top: 20vh;
-        min-width: 90vw;
-    }
-    .banner_headline{
-        width: 90%;
-        top: 75%;
-    }
-
     .sec_header{
         margin-top: 3em;
         height: 60vh;
     }
+    .mainmenu_logo{width: 100%;}
+
+    .banner{
+        top: 20vh;
+        height: 66vh;
+        min-width: 90vw;
+    }
+    .banner_headline{display: none;}
+    .banner_txt{
+        width: 10%;
+        font-size: 12px;
+        top: 0;
+    }
+    .banner_headline_mobile{
+        position: absolute;
+        width: 80%;
+        display: inline-block;
+        bottom: 8%;
+        left: 3%;
+    }
+    .banner_talkbox{
+        width: 22%;
+        top: 60%;
+        right: 3%;
+    }
     .social_btn > img{width: 85%;}
     .social_bar{right: 2%;}
     .social_btn{margin-bottom: .3em;}
+
+    .banner_scroll{display: none;}
+
+    .banner_decoline{
+        top: 30%;
+        width: 30%;
+    }
 
 
     /* about */
@@ -572,17 +745,41 @@
         width: 100%;
     }
     .sec_about > .container{
-        top: 35%;
+        top: 25%;
     }
 
     .sec_about{
+        margin-top: 45vh;
         height: 100vh;
+    }
+    .about_img{
+        width: 65%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about_txt_box > p{
+        width: auto;
+    }
+
+    .about_decoline{
+        z-index: 10;
+        width: 30%;
+        top: 13%;
+    }
+    .about_deco_stirring{
+        width: 25%;
+        left: 60%;
+    }
+    .about_deco_glove , .about_deco_jam{
+        display: none;
     }
 
     /* product */
 
     .sec_product{
-        height: 100vh;
+        height: 100%;
+        margin-top: 16vh;
+        margin-bottom: 0;
     }
     .product_list{
         -webkit-box-orient: vertical;
@@ -593,16 +790,17 @@
             -ms-flex-align: center;
                 align-items: center;
         margin-top: 10%;
-        margin-bottom: 10%;
+        margin-bottom: 0%;
+        height: auto;
     }
     .product_card{
-        height: 13em;
+        height: 8em;
         margin-bottom: 4em;
         margin-right: 0;
         width: 90%;
     }
     .product_name{
-        bottom: -10%;
+        bottom: -30%;
     }
     .product_card > span{
         font-size: 1.4em;
@@ -610,44 +808,28 @@
     }
     .product_name > .name{
         font-size: 20px;
+        line-height: 1.4
     }
     .product_name > .name_jp{
         font-size: 16px;
     }
+    .product_deco_spoon{
+        width: 20%;
+        top: 12%;
+    }
+    .product_deco_monutain_1, .product_deco_monutain_2{
+        display: none;
+    }
 
     /* recipe */
-    .recipe_bg {
-        display: none;
+    .sec_recipe{ display: none; }
 
-    }
-
-    .sec_recipe > .title{
-        margin-bottom: 3vh;
-    }
-
-    .process_img_1, .process_img_2{
-        margin: 0;
-        width: 35%;
-    }
-    .process_img_1{
-        margin-left: 1em;
-        margin-top: 1em;
-    }
-    .process_img_2{
-        margin-right: 2em;
-        margin-bottom: 1em;
-    }
-
-
-    .process_txt_box.txt_1{
-        top: 30%;
-    }
-    .process_txt_box.txt_2{
-        top: 35%;
-        padding-left: 0;
-    }
 
     /* order */
+
+    .sec_order{
+        margin-top: 12vh;
+    }
 
     .order_process{
         -webkit-box-orient: vertical;
@@ -656,18 +838,19 @@
                 flex-direction: column;  
         max-width: 100%; 
         margin-top: 4vh;
+        margin-bottom: 2em;
     }
     .order_card{
-        height: 16vh;
-        margin-top: 2em;
+        height: 12vh;
+        margin-top: 1em;
         margin-bottom: 4em;
     }
     .tip_intro{
-        margin-top: 8em;
+        margin-top: 6em;
     }
     .order_line{
         width: 1px;
-        height: 2em;
+        height: 1.5em;
     }
     .tip_title{
         font-size: 20px;
@@ -680,6 +863,10 @@
     }
 
     /* comment */
+    .sec_comment{
+        margin-top: 16vh;
+        height: 100%;
+    }
 
     .comment_list{
         -webkit-box-orient: vertical;
@@ -704,10 +891,18 @@
     }
 
     /* footer */
+    .sec_footer{
+        margin-top: 0;
+    }
+
     .top_btn{
         top: 8%;
     }
 
+    .contant_list{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .contant_card{
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -719,8 +914,13 @@
         margin-right: 0;
         width: 2.5em;
     }
+    .footer_logo{
+        margin-top: 4em;
+        margin-bottom: 3em;
+        height: auto;
+    }
     .footer_logo >img{
-        width: 8em;
+        width: 6em;
     }
     .footer_logo > p{
         font-size: 20px;
@@ -751,7 +951,7 @@
 
     /* header */
     .banner{
-        height: 50vh;
+        height: 60vh;
         top: 22vh;
     }
 
@@ -760,27 +960,22 @@
         font-size: 14px;
     }
     .about_img{
-        width: 60%;
+        width: 70%;
         left: 50%;
         -webkit-transform: translateX(-50%);
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
-        margin-top: 2em;
     }
 
     /* product */
 
     .sec_product{
-        margin-top: 20vh;
+        margin-top: 12vh;
  
     }
-    .product_name > .name{
-        font-size: 24px;
+    .product_list{
+        margin-bottom: 2em;
     }
-    .product_name > .name_jp{
-        font-size: 18px;
-    }
-
     /* recipe */
     .sec_recipe{
         margin-top: 42vh;
@@ -799,6 +994,10 @@
     .copyright{
         font-size: 14px;
     }
+    .top_btn{
+        width: 3em;
+        height: 3em;
+    }
 }
 
 
@@ -811,15 +1010,32 @@
 
 
     /* nav */
+    .navigation{
+        height: 7em;
+    }
     .nav_item{
         font-size: .9em;
+    }
+    /* heaader */
+    .mainmenu_logo{
+        width: 90%;
+         margin-bottom: 0;
+    }
+
+    .banner{
+        height: 61vh;
+    }
+    .banner_txt{
+        display: none;
     }
 
     /* about */
     .sec_about{
         height: 125vh;
-        margin-top: 24vh;
         padding-bottom: 24vh;
+    }
+    .about_decoline{
+        top: 12%;
     }
 
     /* product */
@@ -827,12 +1043,9 @@
         margin-top: 12vh;
         height: 128vh;
     }
-    .product_card{
-        height: 12em;
-    }
-    .product_name {
-        bottom: -18%;
-    }
+    .product_name > .name{font-size: 18px;}
+    .product_name > .name_jp{font-size: 14px;}
+    .product_name {bottom: -18%;}
 
     /* recipt */
     .process{
@@ -841,8 +1054,12 @@
 
     /* order */
     .order_card{
-        margin-bottom: 7em;
+        height: 14vh;
+        margin-bottom: 4em;
     }
+    .tip_intro{margin-top: 5em;}
+    .tip_title{font-size: 18px;}
+    .tip_content{font-size: 14px;}
 
     /* comment */
     .sec_comment > .title > img{

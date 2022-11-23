@@ -76,7 +76,7 @@ font-family: 'Kite One','Noto Sans TC', 'roboto','Helvetica', 'arial';
 }
 
 @media (max-width: 1800px){.container{max-width: 1452px;}}
-@media (max-width: 1600px){.container{max-width: 1252px;}}
+@media (max-width: 1600px){.container{max-width: 1052px;}}
 @media (max-width: 1400px){.container{max-width: 1052px;}}
 @media (max-width: 1200px){.container{max-width: 980px;}}
 @media (max-width: 1000px){.container{max-width: 696px;}}
