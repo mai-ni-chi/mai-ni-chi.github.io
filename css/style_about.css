@@ -1,0 +1,198 @@
+
+
+
+.home_bg .row{
+    /* border: 1px solid #000; */
+}
+
+
+
+.wrapper{
+    width: 100%;
+    height: auto;
+}
+
+
+.page_title{
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    margin-left: 8%;
+}
+
+.page_title > p{
+    font-size: 44px;
+    margin-left: 1em;
+}
+
+.mainmenu_logo_page{
+    width: 8%;
+    height: 8%;
+}
+.mainmenu_logo_page > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ----------- Social Btn ------------ */
+
+
+.social_bar{
+    position: absolute;
+    top: 5vh;
+    right: 3%;
+
+}
+.social_btn{
+    display: block;
+    padding: 4px 4px;
+    margin-bottom: .5em;
+}
+.social_btn > img{
+    width: 4em;
+}
+
+
+
+.social_btn_page{
+    opacity: 60%;
+    display: block;
+    padding: 4px 4px;
+    margin-bottom: .5em;
+}
+
+.social_btn_page > img{
+    width: 4em;
+}
+
+
+.home_bg{
+    background: url(../image/product/home_bg.svg) no-repeat ;
+    background-position: center top;
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+    left: 50%; transform: translateX(-50%);
+}
+
+.product_title_row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12%;
+    margin-bottom: 10%;
+} 
+
+.product_headline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 44px;
+}
+.product_headline > p {
+    margin-left: .5em;
+    margin-right: .5em;
+    font-weight:500; 
+}
+.headline_patten{
+    width: 4%;
+}
+.product_content{
+    font-size: 24px;
+}
+.product_row, .u-pc-hidden{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+
+
+.product_info_card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid #000; */
+}
+
+.product_img{
+    width: 75%;
+    /* height: 80%; */
+}
+
+.product_info_card > .name{
+    font-size: 28px;
+
+}
+
+.product_info_card > .price{
+    font-size: 24px;
+    color: #DEA068;
+    font-weight: 500;
+}
+/* ----------- Group Product ------------ */
+
+.group_title{
+    font-size: 32px;
+    margin-left: 4em;
+    margin-bottom: 3%;
+    font-size: 500;
+}
+
+.group_price{
+    font-size: 28px;
+    margin-left: 1em;
+}
+
+.add_txt{
+    width: 10%;
+    text-align: center;
+    font-size: 5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.group_name{
+    font-size: 28px;
+
+}
+.group_info{
+    font-size: 24px;
+    margin-bottom: 10%;
+}
+
+.group_c_img{
+    width: 50%;
+}
+
+.more_btn_product{
+    width: 50%;
+    padding: 0.6em 6em;
+    font-size: 28px;
+    border-radius: 20em;
+    -webkit-box-shadow: 0 0 0 5px #99A868;
+            box-shadow: 0 0 0 5px #99A868;
+    border: 2px dashed #F4F3F0 ;
+    margin-right: .4em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    white-space:nowrap;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20% ;
+}
+
+
+.sec_footer{
+    margin-top: -3%;
+}
