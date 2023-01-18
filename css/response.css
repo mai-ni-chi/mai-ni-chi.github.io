@@ -902,7 +902,7 @@
     /* order */
 
     .sec_order{
-        margin-top: 12vh;
+        /* margin-top: 16vh; */
     }
 
     .order_process{
@@ -935,6 +935,12 @@
     .sec_order > .more_btn{
         width: 90%;
     }
+
+    .order_deco_cloud1, .order_deco_cloud2, .order_deco_cloud3, .order_deco_flower, .order_deco_mountains1, .order_deco_mountains2{
+        visibility: hidden;
+    }
+
+
 
     /* comment */
     .sec_comment{
