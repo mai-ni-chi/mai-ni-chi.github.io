@@ -158,10 +158,11 @@
         margin-top: 12em;
     }
     .tip_title{
-        font-size: 24px;
+        font-size: 28px;
+        margin-top: 1em;
     }
     .tip_content{
-        font-size: 16px;
+        font-size: 18px;
     }
     /* comment */
     .sec_comment > .title > .sub_title{
@@ -336,7 +337,8 @@
         margin: .5em 2.2em;
     }
     .tip_title{
-        font-size: 30px;
+        font-size: 28px;
+        margin-top: 1em;
     }
     .tip_intro{
         margin-top: 12em;

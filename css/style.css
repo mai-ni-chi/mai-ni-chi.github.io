@@ -499,23 +499,27 @@
 .recipe_deco_agitator{
     width: 10%;
     bottom: 24%;
+    opacity: 90%;
 }
 
 .recipe_deco_mixing_bowl{
     width: 10%;
     bottom: 30%;
     left: 32%;
+    opacity: 80%;
     transform: rotate(10deg);
 }
 .recipe_deco_eggs{
     width: 8%;
     right: 20%;
     bottom: 0;
+    opacity: 70%;
 }
 .recipe_deco_sieve{
     width: 12%;
     right: 0;
     bottom: 2%;
+    opacity: 60%;
 }
 
 
